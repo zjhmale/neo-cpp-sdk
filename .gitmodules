@@ -1,0 +1,3 @@
+[submodule "libs/fp"]
+	path = libs/fp
+	url = https://github.com/zjhmale/functional-cpp.git
