@@ -1,3 +1,6 @@
 [submodule "libs/fp"]
 	path = libs/fp
 	url = https://github.com/zjhmale/functional-cpp.git
+[submodule "libs/json"]
+	path = libs/json
+	url = https://github.com/nlohmann/json.git

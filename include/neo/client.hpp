@@ -13,11 +13,11 @@ namespace neo {
       string node_uri;
 
     public:
-      explicit Api(const string &uri);
+      explicit Client(const string &uri);
       auto get_best_block_hash() -> Maybe<string>;
     };
 
-    Client::Api(const string &uri) {
+    Client::Client(const string &uri) {
       this->node_uri = uri;
     }
   }
