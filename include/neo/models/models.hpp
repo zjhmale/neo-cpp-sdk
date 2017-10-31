@@ -4,3 +4,4 @@
 #include <neo/models/vin.hpp>
 #include <neo/models/script.hpp>
 #include <neo/models/transaction.hpp>
+#include <neo/models/block.hpp>
