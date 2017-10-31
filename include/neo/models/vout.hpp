@@ -9,14 +9,14 @@ using namespace std;
 namespace neo {
   namespace models {
     namespace vout {
-      struct VOut {
+      struct Vout {
         string address;
         string asset;
         string value;
         int n;
       };
 
-      void to_json(json& j, const VOut& o) {
+      void to_json(json& j, const Vout& o) {
         j = json{
           { "Address", o.address },
           { "Asset", o.asset },
@@ -25,7 +25,7 @@ namespace neo {
         };
       }
 
-      void from_json(const json& j, VOut& o) {
+      void from_json(const json& j, Vout& o) {
         o.address = j.at("Address").get<string>();
         o.asset = j.at("Asset").get<string>();
         o.value = j.at("Value").get<string>();
