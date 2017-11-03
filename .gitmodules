@@ -4,3 +4,9 @@
 [submodule "libs/json"]
 	path = libs/json
 	url = https://github.com/nlohmann/json.git
+[submodule "libs/derivejson"]
+	path = libs/derivejson
+	url = https://github.com/zjhmale/derive-json-cpp.git
+[submodule "libs/preprocessor"]
+	path = libs/preprocessor
+	url = https://github.com/boostorg/preprocessor.git

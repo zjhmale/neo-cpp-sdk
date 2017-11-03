@@ -1,6 +1,6 @@
 #include <neo/neo.hpp>
 using namespace neo::client;
-using namespace neo::models::script;
+using namespace neo::models;
 
 #include <memory>
 using namespace std;
