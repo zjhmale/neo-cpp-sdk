@@ -21,12 +21,15 @@ namespace neo {
                  (unsigned long, size, "size")
                  (string, type, "type")
                  (unsigned long, version, "version")
+                 //attributes
                  (vector<Vin>, vin, "vin")
                  (vector<Vout>, vout, "vout")
                  (string, sys_fee, "sys_fee")
                  (string, net_fee, "net_fee")
                  (vector<Script>, scripts, "scripts")
-                 (unsigned long, nonce, "nonce"))
+                 (string, block_hash, "blockhash")
+                 (unsigned long, confirmations, "confirmations")
+                 (unsigned long, blocktime, "1496719422"))
   }
 }
 
