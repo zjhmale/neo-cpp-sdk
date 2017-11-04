@@ -8,3 +8,4 @@
 #include <neo/models/asset.hpp>
 #include <neo/models/account_state.hpp>
 #include <neo/models/claim.hpp>
+#include <neo/models/balance.hpp>

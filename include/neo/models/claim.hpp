@@ -17,7 +17,7 @@ namespace neo {
                  (unsigned long, index, "index")
                  (int, start, "start")
                  (int, sys_fee, "sysfee")
-                 (string, "txid", "txid")
+                 (string, txid, "txid")
                  (int, value, "value"))
 
     DEFINE_MODEL(Claims,
