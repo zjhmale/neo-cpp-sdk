@@ -7,3 +7,4 @@
 #include <neo/models/block.hpp>
 #include <neo/models/asset.hpp>
 #include <neo/models/account_state.hpp>
+#include <neo/models/claim.hpp>
