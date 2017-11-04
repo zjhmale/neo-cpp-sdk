@@ -6,3 +6,4 @@
 #include <neo/models/transaction.hpp>
 #include <neo/models/block.hpp>
 #include <neo/models/asset.hpp>
+#include <neo/models/account_state.hpp>
